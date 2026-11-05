@@ -1,0 +1,11 @@
+openapi: 3.0.3
+info:
+  title: Forge API
+  version: 0.1.0
+paths:
+  /healthz:
+    get:
+      summary: Process health
+      responses:
+        '200':
+          description: Process is responding
